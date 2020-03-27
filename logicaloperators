@@ -1,0 +1,13 @@
+console.log(!true);
+false
+var lokesh=0
+undefined
+var kiki=0
+var kavu=1
+var dhruv=1
+console.log(kavu || lokesh);
+1
+console.log(dhruv && kavu);
+1 
+console.log(kavu && kiki);
+0

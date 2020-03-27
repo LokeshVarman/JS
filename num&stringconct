@@ -1,0 +1,13 @@
+console.log("3"+4+5);
+345
+console.log(4+"5"+5)
+455 
+console.log(4+5+"5");
+95 
+console.log(4+5+"sam");
+9sam 
+console.log(4+"5"+"sam");
+45sam 
+console.log(4+"5"+"string");
+45string 
+
