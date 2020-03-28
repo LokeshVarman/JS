@@ -1,0 +1,95 @@
+var kavu=2;
+var kiki=1;
+console.log(kavu>kiki);
+true
+console.log(kiki!==kavu);
+ true
+var kavustr="2";
+console.log(kavu=kavustr);
+ 2
+console.log(kavu===kavustr);
+ true
+console.log(kavu===parseInt(kavustr);
+ false
+console.log(kavu===parseInt(kavustr));
+ false
+console.log(kavu===parseInt(kavustr));
+ false
+console.log(kavustr);
+ 2
+
+var a=2;
+var b="2";
+console.log(a==b);
+ true
+console.log(a===b);
+ false
+console.log(a!==b);
+ true
+console.log(a===parseInt(b));
+ true
+console.log(a=b);
+ 2
+console.log(a!==b);
+ false
+console.log(a===parseInt(b));
+ false
+console.log(a===b);
+ true
+
+                                  //INCREMENT
+
+var a=99;
+console.log(a++);
+99
+
+var a=99;
+console.log(--a,a--);
+98 98
+
+var a=99,b=101;
+console.log(++a,b--,a++,--b);
+100 101 100 99
+
+                              //LOOP AND ITERATIONS
+var g=1;
+do
+{
+console.log("guvi");
+}
+while(g<=1)
+How many times guvi will be printed?
+infinite
+
+var i=0,g=10;
+for(i=1;i!=g;)
+{
+console.log("i");
+}
+How many times the loop will be executed?
+infinite
+
+                         // continue and Break
+var g=0;
+while(g<5)
+{
+  if(g==5)
+    break;
+  g++;
+}
+
+5
+
+                 //RESERVED WORDS
+console
+log
+for
+do
+while
+break
+switch
+case
+continue
+void
+
+
