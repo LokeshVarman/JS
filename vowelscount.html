@@ -1,0 +1,18 @@
+<html>
+<body>
+<script>
+var getname = prompt("enter your name");
+var vowels="aeiouAEIOU";
+var count=0;
+var counting=function(){
+  for(i=0;i<getname.length;i++){
+    if(vowels.indexOf(getname[i])!==-1){
+      count=count+1;
+    }
+  }
+  console.log(count);
+};counting();
+</script>
+</body>
+
+</html>

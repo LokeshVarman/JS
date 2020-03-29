@@ -1,0 +1,24 @@
+<html>
+<body>
+<script>
+var sum=0;
+var n= prompt("enter n:");
+var checktogetinside=function(){ if ((n<10) && (n>1)){
+    for(i=0;i<n;i++){
+    var num=prompt("enter numbers ");
+    sum=sum+parseInt(num);
+  }
+    console.log(sum)
+    var avg=sum/n;
+    console.log("The avg is"+avg);
+}
+                                
+ else{
+   console.log("n should be less than 10 and greater than 0");
+ }
+};
+checktogetinside();
+</script>
+</body>
+
+</html>
